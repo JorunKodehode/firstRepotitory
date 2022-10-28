@@ -1,0 +1,77 @@
+body {
+  margin: 0; /* dekke hele siden */
+  display: block;
+  min-height: 100vh;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* background-image: url("../Bilder/animation2.png"); */
+  /* background-position: right; */
+  /* background-repeat: no-repeat; */
+}
+
+/* 
+* {
+    box-sizing: border-box;
+}
+*/
+
+#nav-card {
+  min-height: 100vh;
+  flex-direction: column;
+  animation: mymove 5s infinite;
+}
+#header-img {
+  align-items: right;
+  flex-direction: flex-end;
+  animation-timing-function: linear;
+}
+#header-text {
+  align-items: left;
+  flex-direction: flex-start;
+}
+
+h1 {
+  font-size: 3em; /* 1em = 16 px */
+  background-color: linear-gradient(black, green, white);
+  background-clip: text;
+  color: transparent;
+}
+
+/* Header */
+#nav {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+.nav-item a {
+  padding-right: 10px;
+  color: #fff;
+}
+
+nav {
+  background-color: #789456;
+  padding: 5px;
+  width: 100%;
+  color: black;
+  /* cursor: pointer;  
+    Pga bootstrap får den henter den opp og får pointer */
+}
+
+/* Main */
+main {
+  padding-left: 10px;
+}
+/* Footer */
+footer {
+  left: 0;
+  right: 50px;
+  bottom: 0;
+  width: 100%;
+  font-size: 13px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.footerInfo {
+  color: #f83728;
+}
+@keyframes;
